@@ -21,11 +21,11 @@ HEIGHT = 600
 
 SCR= pygame.display.set_mode((WIDTH, HEIGHT))
 
-playerimg = pygame.image.load("imgs\ship.png")  
-bg = pygame.image.load("imgs\hills.png")
+playerimg = pygame.image.load("spaceinvadersproject-main\Space Invader\imgs\ship.png")  
+bg = pygame.image.load("spaceinvadersproject-main\Space Invader\imgs\hills.png")
 bg = pygame.transform.scale(bg, (WIDTH,HEIGHT))
-invaderimg = pygame.image.load("imgs\enemy.png")
-bullet = pygame.transform.scale(pygame.image.load("imgs\laser.png"), (32, 64))
+invaderimg = pygame.image.load("spaceinvadersproject-main\Space Invader\imgs\enemy.png")
+bullet = pygame.transform.scale(pygame.image.load("spaceinvadersproject-main\Space Invader\imgs\laser.png"), (32, 64))
 
 
 class Laser:
