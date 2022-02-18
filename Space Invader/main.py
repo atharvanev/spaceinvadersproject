@@ -137,7 +137,7 @@ def main():
 
     enemies = []
     wave_length = 5
-    ene_mov_speed = 2
+    ene_mov_speed = 1
     mov_speed = 7
     player = Player(500,500)
     las_mov_speed= -10
